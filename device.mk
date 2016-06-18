@@ -318,6 +318,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.recovery.qcom.rc \
     init.target.rc \
+    init.verity.rc \
     ueventd.qcom.rc
 
 # IRQ
