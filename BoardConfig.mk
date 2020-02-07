@@ -141,6 +141,9 @@ TARGET_USES_INTERACTION_BOOST := true
 # Properties
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
+# Recovery
+TARGET_RECOVERY_FSTAB := $(DEVICE_PATH)/rootdir/etc/fstab.qcom
+
 # SELinux
 include device/qcom/sepolicy-legacy-um/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor

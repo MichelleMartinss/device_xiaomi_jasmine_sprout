@@ -308,6 +308,7 @@ PRODUCT_PACKAGES += \
     init.recovery.qcom.rc \
     init.target.rc \
     init.verity.rc \
+    fstab.qcom \
     ueventd.qcom.rc
 
 # IRQ
