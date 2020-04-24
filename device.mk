@@ -459,6 +459,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.wifi@1.0-service \
     hostapd \
+    JasmineWifiOverlay \
     libwifi-hal-qcom \
     WifiOverlay \
     wpa_supplicant \
