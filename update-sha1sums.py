@@ -20,7 +20,7 @@ import os
 import sys
 from hashlib import sha1
 
-DEVICE = 'sdm660-common'
+DEVICE = 'jasmine_sprout'
 VENDOR = 'xiaomi'
 VENDOR_PATH = os.path.join(
     *['..', '..', '..', 'vendor', VENDOR, DEVICE, 'proprietary'])
